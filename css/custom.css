@@ -1,3 +1,13 @@
-.header {
-    color: white;
-}
+
+.about {
+  zoom: 192%;
+  display: inline-block;
+  width: 231px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  }
