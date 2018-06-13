@@ -40,3 +40,35 @@
 ul.services-list li {
   margin-right: 28px;
 }
+
+/* fixed call us card */
+.call-us {
+  height: 55px;
+  position:fixed;
+  bottom:5px;
+  right:5px;
+  border-radius: 3px; 
+  background-color: #ecb807!important;
+  max-width: 281px;
+  padding: 5px;
+}
+
+.portfolio-pic {
+  background: linear-gradient(to bottom, rgba(0,0,0,0.40) 66%, transparent), url('../img/deseret1.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 370.25px;
+}
+
+.offerings:before {
+  font-family: FontAwesome;
+  content: "\f14a";
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  
+}
+.offerings {
+  list-style-type: none;
+}

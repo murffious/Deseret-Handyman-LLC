@@ -16,6 +16,3 @@ After installation, run `npm install` and then run `gulp dev` which will open up
 
 
 MurffCode 2018
-
-
-HELLO
