@@ -129,7 +129,7 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function () {
 
 gulp.task('serveprod', function () {
   connect.server({
-    root: './dist/index.html',
+    root: '.',
     port: process.env.PORT || 5000, // localhost:5000
     livereload: false,
     fallback: './dist/index.html'
