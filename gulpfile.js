@@ -125,7 +125,7 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function () {
   gulp.watch('./*.html', browserSync.reload);
 });
 
-gulp.task('build', ['css', 'js']);
+gulp.task('build', ['default']);
 // gulp.task('serveprod', function () {
 //   connect.server({
 //     root: './dist/index.html',
