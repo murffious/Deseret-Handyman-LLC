@@ -22,7 +22,7 @@
         "David Miller (http://davidmiller.io/)"
     ],
     "scripts": {
-        "start": "node gulpfile.js",
+        "start": "node app",
         "postinstall": "gulp default"
       },
     "repository": {
@@ -34,9 +34,7 @@
         "font-awesome": "4.7.0",
         "jquery": "3.3.1",
         "jquery.easing": "^1.4.1",
-        "simple-line-icons": "^2.4.1"
-    },
-    "devDependencies": {
+        "simple-line-icons": "^2.4.1",
         "browser-sync": "2.24.3",
         "gulp": "^3.9.1",
         "gulp-clean-css": "3.9.4",
