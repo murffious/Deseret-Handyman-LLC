@@ -22,7 +22,8 @@
         "David Miller (http://davidmiller.io/)"
     ],
     "scripts": {
-        "start": "node gulpfile.js",
+        "start": "gulp dev",
+        "build": "gulp",
         "heroku-postbuild": "gulp"
       },
     "repository": {
