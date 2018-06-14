@@ -127,8 +127,9 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function () {
 
 gulp.task('serveprod', function () {
   connect.server({
-    root: ["./index.html"],
+    root: "./index.html",
     port: process.env.PORT || 5000, // localhost:5000
-    livereload: false
+    livereload: false,
+    fallback: './dist/index.html'
   });
 });

@@ -21,6 +21,10 @@
     "contributors": [
         "David Miller (http://davidmiller.io/)"
     ],
+    "scripts": {
+        "start": "node gulpfile.js",
+        "postinstall": "gulp default"
+      },
     "repository": {
         "type": "git",
         "url": "https://github.com/BlackrockDigital/startbootstrap-stylish-portfolio.git"
