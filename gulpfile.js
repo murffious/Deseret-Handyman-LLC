@@ -125,11 +125,11 @@ gulp.task('dev', ['css', 'js', 'browserSync'], function () {
   gulp.watch('./*.html', browserSync.reload);
 });
 
-gulp.task('serveprod', function () {
-  connect.server({
-    root: './dist/index.html',
-    port: process.env.PORT || 5000, // localhost:5000
-    livereload: false,
-    fallback: './dist/index.html'
-  });
-});
+// gulp.task('serveprod', function () {
+//   connect.server({
+//     root: './dist/index.html',
+//     port: process.env.PORT || 5000, // localhost:5000
+//     livereload: false,
+//     fallback: './dist/index.html'
+//   });
+// });
