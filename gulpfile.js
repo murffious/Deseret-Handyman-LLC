@@ -135,4 +135,4 @@ gulp.task('serveprod', function () {
     fallback: './dist/index.html'
   });
 });
-gulp.task('build', ['default', 'serverprod']);
+gulp.task('build', ['default', 'serveprod']);
