@@ -60,15 +60,16 @@ ul.services-list li {
   background-size: cover;
   max-height: 370.25px;
 }
-
+/* 
 .offerings:before {
   font-family: FontAwesome;
   content: "\f14a";
   display: inline-block;
-  padding-right: 3px;
-  vertical-align: middle;
+  padding: 5px;
+  vertical-align: text-top;
   
-}
+} */
+
 .offerings {
   list-style-type: none;
 }
