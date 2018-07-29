@@ -7,6 +7,8 @@ var rename = require("gulp-rename");
 var uglify = require('gulp-uglify');
 var pkg = require('./package.json');
 var connect = require('gulp-connect');
+var deploy = require('gulp-gh-pages');
+
 // Set the banner content
 var banner = ['/*!\n',
   ' * Start Bootstrap - <%= pkg.title %> v<%= pkg.version %> (<%= pkg.homepage %>)\n',
@@ -15,6 +17,15 @@ var banner = ['/*!\n',
   ' */\n',
   ''
 ].join('');
+
+
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', ["build"], function () {
+  return gulp.src("./dist/**/*")
+    .pipe(deploy())
+});
 
 // Copy third party libraries from /node_modules into /vendor
 gulp.task('vendor', function () {
